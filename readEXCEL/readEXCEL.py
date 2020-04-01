@@ -35,3 +35,5 @@ AddWarningMessage(str(list(xlrange.Value2)))
   [warning] Total: 260.0
   [warning] ['Math', 80.0, 'Physics', 70.0, 'History', 60.0, 'Biology', 50.0]
 '''
+#AddWarningMessage(str(dir(workbook)))
+workbook.Close()
